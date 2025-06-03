@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trang này để tui test - Gen Z vibes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        body {
+            background: linear-gradient(135deg, #f8f8f8, #ffe4e1);
+            font-family: 'Poppins', sans-serif;
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+            color: #333;
+            text-align: center;
+            user-select: none;
+        }
+
+        p {
+            font-size: 1.25rem;
+            margin: 15px 0;
+            line-height: 1.5;
+            cursor: default;
+        }
+
+        p strong {
+            color: #e91e63;
+            font-size: 1.3rem;
+            display: block;
+            margin-top: 30px;
+        }
+
+        img {
+            margin-top: 20px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(233, 30, 99, 0.4);
+            max-width: 100%;
+            height: auto;
+            filter: drop-shadow(2px 4px 6px rgba(255, 105, 180, 0.6));
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05) rotate(2deg);
+        }
+
+        /* Emoji bounce animation */
+        .emoji {
+            display: inline-block;
+            animation: bounce 1.2s infinite alternate;
+            font-size: 1.6rem;
+        }
+        .emoji:nth-child(odd) {
+            animation-delay: 0.2s;
+        }
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-8px); }
+        }
+
+        /* Chat bubble vibe */
+        .chat {
+            background: #ff80ab33;
+            border-radius: 30px;
+            padding: 15px 25px;
+            margin: 10px auto;
+            max-width: 90%;
+            position: relative;
+            box-shadow: 0 3px 10px #ff80ab88;
+            font-weight: 600;
+            color: #d81b60;
+        }
+        .chat:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+            width: 0;
+            height: 0;
+            border: 15px solid transparent;
+            border-top-color: #ff80ab33;
+            border-bottom: 0;
+            margin-left: -15px;
+            margin-bottom: -15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chat"><span class="emoji">👨</span>: Em biết nhìn vào mắt em anh thấy gì không? <span class="emoji">😏</span></div>
+    <div class="chat"><span class="emoji">👩</span>: Dạ... gì ạ? <span class="emoji">🤔</span></div>
+    <div class="chat"><span class="emoji">👨‍🦰</span>: Nhìn vào mắt em anh thấy 2 cái tròng đen <span class="emoji">😂</span></div>
+
+    <p><strong>Phản ứng của cổ:</strong></p>
+    <!-- Thay link ảnh bên dưới thành link online hoặc hình Wan up lên mấy dịch vụ như imgur, postimages nha -->
+    <img src="https://i.postimg.cc/TwyxcX8j/chiphien.jpg" alt="Phản ứng của cổ" />
+
+</body>
+</html>
